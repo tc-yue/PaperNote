@@ -1,0 +1,2 @@
+- 立场检测
+-   ![sdf](pics/scwtsnan/1.png)
