@@ -1,5 +1,5 @@
 # PaperNote
-Reading Note on DL NLP papers
+Reading Note on NLP&DL papers
 
 
 #### TextClassification

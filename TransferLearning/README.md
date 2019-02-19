@@ -14,4 +14,5 @@
 ### LanguageModel
 1. [Univeral Langugae Model Fine-tuning for Text Classification -ACL2018](UniveralLangugaeModelFine-tuningforTextClassification.md)
 2. [Deep contetualized word representations -NAACL2018](DeepContetualizedWordRepresentations.md)
+3. [BERT:Pre-training of Deep Bidirectional Transformers for Language Understanding ](BERT.md)
 ### MultiTaskLearning

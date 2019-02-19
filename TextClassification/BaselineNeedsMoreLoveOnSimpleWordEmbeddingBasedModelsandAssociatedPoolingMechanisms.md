@@ -1,0 +1,21 @@
+- Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms  - ACL 2018
+    -  Motivation： 简单的模型就可以解决文本建模问题。
+    -  Model：
+        -   SWEM-aver：文本序列平均池化（变长文本注意mask），通过序列每个词向量相加融入每个元素的信息。
+        -   SWEM-max：部分主题文本分类任务只有少量的关键词是有用的。利用最大池化方式抽取每个词向量维度的最大值。
+        -   SWEM-concat: 将上述二者句子向量连接，效果更好
+        -   SWEM-hie：上述模型未考虑词序和空间信息（对于情感分类等词序敏感任务）,首先类似卷积操作对局部窗口的ngram进行平均池化，然后对得到的新句子表示进行最大池化。该方法对由ngram构建句子的过程进行跟踪从而保留了局部空间信息。
+    - Results Analysis:
+        - Importance of word-order：除了情感分析任务外，SWEM模型效果都很好。对几个数据集的文本词序进行shuffle，利用LSTM进行建模，发现在Yahoo主题分类和SNLI自然语言推理数据集上指标变化不大，在YELP情感分析数据集上效果下降明显，与该文的SWEM模型相差不大，表明LSTM与SWEM的建模的差别主要是在词序的捕捉上。
+        - word order case study：正向词friendly，nice很多，但是决定倾向性的是 not great， makes me wonder这样的n-grams。
+            - Negative：Friendly staff and nice selection of vegetarian options. Food is just okay, not great.Makes me wonder why everyone likes food fight so much.
+        - SWEM-hier for sentiment analysis:情感分析中的词序很重要，但是根据case一些关键的ngram可能是情感预测决定性的特征。在YELP的结果可以媲美CNN或LSTM。
+        - Short-sentence
+            -  在短文本上效果较差，对于短文本序列单独的词向量包含的语义信息有限，词序特征会更重要。而且在相对少的数据集上会容易过拟合。
+        - other languages
+            - 在中文上，SWEM-hier 效果更好，中文对词序更加敏感。
+    - Inspired
+        - 任务的数据分析，对词序等是否敏感，长距离依赖等等？
+        - 一步一步走，从最简单有效的开始构建。
+        - 错误分析， 相比原模型，哪里需要改进。
+        - 论文的motivation和实验分析很重要。是否match，真的解决了该问题。

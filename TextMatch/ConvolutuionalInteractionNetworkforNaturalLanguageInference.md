@@ -1,0 +1,15 @@
+- Attentive Interaction
+        - 对句子对用CNN/RNN编码，然后用sentence2word attention 或者 word2wordattention捕捉交互信息
+        - word2word
+            - Multiplicative attention 词对之间的点积，由于计算参数少，使用的更多。
+            - Additive attention
+        - 根据注意力权重分别生成虚拟的X和Y
+    - 卷积交互网络
+        -  利用卷积抽取句子的非线性组合特征，same padding， relu
+        -  根据句子Y学习dynamic filter，然后用来抽取句子X的特征
+        -
+    - 模型
+        - 编码层
+            - 词表示：词向量，词性标注向量，字符向量(卷积最大池化，可训练)，exact match值(句子对共享词为1，其余0)
+            - 双向LSTM编码
+    - 卷积交互层

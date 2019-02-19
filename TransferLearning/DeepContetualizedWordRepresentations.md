@@ -1,0 +1,25 @@
+- NAACL 2018 BestPaper
+- [code](https://allennlp.org/elmo)
+- Introduction
+    - 解决一词多义，词语使用的复杂特性。原始的词向量无法区分多义词
+    - 每个token的表示是全部句子的函数
+    - 上层的表示捕捉上下文语义信息（用于词语消歧），下层表示适合捕捉句法信息（用于词性标注）
+- Model
+    - 双向语言模型
+        - 利用多层的双向LSTM语言模型预测token。
+        - 每个token表示是字符的卷积向量。
+    - ELMO
+        - 最后的词表示，是词向量层与多个双向LSTM输出的线性加权求和
+    - 特定任务
+        - 如何把ELMO加入到某个特定任务中。大部分的NLP模型输入后都是先过词向量层，然后过一些CNN，RNN
+        学习文本表示。首先固定语言模型，把elmo的表示和词向量表示拼接作为输入在某些任务如SNLI，SQUAD上
+        把elmo加入到任务输出的RNN中会有提升。
+        - 在ELMO中加入Dropout和正则。
+    - 预训练语言模型
+        - context-sensitive字符级cnn学token表示，
+        - CNN-BIG-LSTM 基础，两层BiLSTM, 第一层第二层残差直连。
+        - 首先在大规模预料上预训练10轮，然后在特定领域数据上进行微调语言模型
+- Experiments
+    -  SNLI 上，比ESIM提高了0.7%，5个ensemble的比esim提高了0.4%
+    - l2 loss 的系数越大，最后的表示越倾向于每层的平均，0.001的lambda 效果好于1更好于只使用最后一层的结果
+    - SNLI上在output的地方加入elmo效果更好，
