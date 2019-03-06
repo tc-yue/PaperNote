@@ -22,8 +22,8 @@ Reading Note on NLP&DL papers
 [评价对象抽取](AspectTermExtraction/README.md)
 
 --------------
-#### WordEmbedding
-[词向量](WordEmbedding/README.md)
+#### NN
+[其他神经网络相关](NN/README.md)
 
 ------------
 #### TransferLearning

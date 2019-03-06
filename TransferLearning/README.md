@@ -1,18 +1,22 @@
 # TransferLearning (迁移学习)
 - 模型预训练及跨数据迁移
-    - [迁移学习](###TransferLearning)
-    - [语言模型预训练](###LanguageModel)
-        - 预测文本所属的多个标签，类别不一定
-    - [多任务学习](###MultiTaskLearning)
-        - 多任务学习
+
+    - [词向量](###wordembedding)
+    - [迁移学习](###transferlearning)
+    - [语言模型预训练](###languagemodel)
+    - [多任务学习](###multitasklearning)
 
 
-
+### WordEmbedding
+- Efficient Estimation of Word Representations in Vector Space
+- Enriching Word Vectors with Subword Information
+- Distributed Representations of Sentences and Documents
+- GloVe: Global Vectors for Word Representation
 ### TransferLearning
 
 
 ### LanguageModel
-1. [Univeral Langugae Model Fine-tuning for Text Classification -ACL2018](UniveralLangugaeModelFine-tuningforTextClassification.md)
-2. [Deep contetualized word representations -NAACL2018](DeepContetualizedWordRepresentations.md)
-3. [BERT:Pre-training of Deep Bidirectional Transformers for Language Understanding ](BERT.md)
+- [Univeral Langugae Model Fine-tuning for Text Classification -ACL2018](UniveralLangugaeModelFine-tuningforTextClassification.md)
+- [Deep contetualized word representations -NAACL2018](DeepContetualizedWordRepresentations.md)
+- [BERT:Pre-training of Deep Bidirectional Transformers for Language Understanding ](BERT.md)
 ### MultiTaskLearning
