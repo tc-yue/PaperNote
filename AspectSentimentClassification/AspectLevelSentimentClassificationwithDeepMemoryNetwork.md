@@ -1,0 +1,25 @@
+- Aspect Level Sentiment Classification with Deep Memory Network - ACL 2016
+- 评价对象是句子中的实体, 利用注意力抽取评价词相关信息
+- 速度10倍于LSTM
+- Model
+    - overview
+        - 将去除aspect的词序列embedding看作外部记忆
+        - 第一个hop将aspect vector作为输入，利用注意力机制去选择记忆中重要的信息
+        - 后面的hop将aspect vector和注意力加权输出相加作为输入。
+        - 用多层的hop可以从外部记忆中抽取更抽象的信息
+        - 最后一层的输出向量作为aspect相关的句子表示，进而用于情感分类。
+        - 每个层的注意力和线性层参数共享。
+    - content attention
+        - 经典的注意力计算方法，计算aspect与memory中每个词的语义相似度，然后与memory加权求和
+    - location attention
+        - content attention 忽略了位置信息。然而在aspect 与描述文本的word之间的距离信息对于情感的判断
+        有一定作用。一般距离aspect越近，影响越大。因此要加入位置信息。
+        - 首先定义位置是在句子中与aspect 的绝对距离
+        - 1.根据句子长度，hop数，绝对位置计算一个标量，然后与词向量逐元素相乘
+        - 2.与1类似，在不同hop使用相同的位置向量
+        - 3.将位置作为可训练的向量，然后与词向量拼接
+        - 4.将位置作为可训练的向量，然后与词向量逐元素相乘。位置向量相当于门控单元，控制词语的语义信息
+    - 每计算一次hop都可以更充分的学习文本的特征表示
+- Experiment
+    - hops 需要调，在5-10上较好
+    - location 方式。第二种较好，且参数少。

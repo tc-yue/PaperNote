@@ -23,8 +23,8 @@
 - [Exploiting Document Knowledge for Aspect-level Sentiment Classification -ACL2018](ExploitingDocumentKnowledgeforAspect-levelSentimentClassification.md)
 - Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification -AAAI 2019
 ### Memory
-- Aspect Level Sentiment Classification with Deep Memory Network - ACL 2016
-- Recurrent Attention Network on Memory for Aspect Sentiment Analysis -EMNLP 2017
+- [Aspect Level Sentiment Classification with Deep Memory Network - ACL 2016](AspectLevelSentimentClassificationwithDeepMemoryNetwork.md)
+- [Recurrent Attention Network on Memory for Aspect Sentiment Analysis -EMNLP 2017](RecurrentAttentionNetworkonMemoryforAspectSentimentAnalysis.md)
 - Target-Sensitive Memory Networks for Aspect Sentiment Classification - ACL 2018
 - Convolution-based Memory Network for Aspect-based Sentiment Analysis - SIGIR 2018
 
@@ -37,9 +37,10 @@
 - Aspect Sentiment Classification with both Word-level and Clause-level Attention Networks IJCAI 2018
 
 ### Transformer
-- Transformation Networks for Target Oriented Sentiment Classification  -ACL 2018
+- [Transformation Networks for Target Oriented Sentiment Classification  -ACL 2018](TransformationNetworksforTargetOrientedSentimentClassification.md)
 
 ### Report
 - SemEval-2014 Task 4: Aspect Based Sentiment Analysis
 - SemEval-2015 Task 12: Aspect Based Sentiment Analysis
 - SemEval-2016 Task 5: Aspect Based Sentiment Analysis
+- NRC-Canada-2014: Detecting Aspects and Sentiment in Customer Reviews

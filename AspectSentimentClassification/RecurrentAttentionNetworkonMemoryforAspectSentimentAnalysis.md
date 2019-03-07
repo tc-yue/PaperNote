@@ -1,0 +1,16 @@
+- Recurrent Attention Network on Memory for Aspect Sentiment Analysis - EMNLP 2017
+- 大体框架类似于[Recurrent Attention Network on Memory for Aspect Sentiment Analysis -EMNLP 2017](RecurrentAttentionNetworkonMemoryforAspectSentimentAnalysis.md)
+- Contribution
+    - 多层注意力可以更有效的排除无关信息
+    - 用GRU将每层注意力抽取的信息非线性结合起来
+- Model
+    - Memory
+        - Tang的MemNet只用词向量作为记忆，无法综合短语级特征，本文用两层的双向LSTM进行编码
+    - Position Weighted
+        - 对memory进行位置加权，也就是给予距离aspect位置近的隐层表示更大的权重
+    - Recurrent Attention on Memory
+        - Tang的MemNet每一个hop的输入只考虑上一个hop抽取的记忆
+        - 本文利用一个GRU，可以综合前面每一个hop的信息
+- Experiment
+    - 注意力层数2-3为好
+    - 小数据集固定词向量
