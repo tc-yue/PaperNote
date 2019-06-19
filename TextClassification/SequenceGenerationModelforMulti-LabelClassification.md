@@ -16,9 +16,6 @@
 
 
 
-- Experiments
-    - 同一个领域：对比实验非SOTA
-    - 相似领域的迁移。在一个target训练的模型，在另一个进行预测
-    - attention 的词都是领域相关和情感相关词
+
 
 - ![pic](pics/sgm/a.png)

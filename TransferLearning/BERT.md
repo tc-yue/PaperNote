@@ -36,3 +36,10 @@
     - 基于特征的方法
         - 不是所有的任务都适合Transformer，从预训练的模型获取固定的特征会减少计算时间
         - 在NER上的实验，把最后四层的表示拼接与finetune的效果相差0.3
+
+
+- https://www.zhihu.com/collection/120087973
+https://zhuanlan.zhihu.com/p/65470719
+- BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis
+- Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence.
+- https://mp.weixin.qq.com/s/1Cz6js4kYdvc8g4oKjVPeA

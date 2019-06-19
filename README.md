@@ -28,3 +28,6 @@ Reading Note on NLP&DL papers
 ------------
 #### TransferLearning
 [迁移学习](TransferLearning/README.md)
+
+#### Note
+[学习笔记](Note/README.md)

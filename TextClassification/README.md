@@ -31,11 +31,11 @@
 ### Embedding
 - [Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms  - ACL 2018](BaselineNeedsMoreLoveOnSimpleWordEmbeddingBasedModelsandAssociatedPoolingMechanisms.md)
 - [Joint Embedding of Words and Labels for Text Classification - ACL18](JointEmbeddingofWordsandLabelsforTextClassification.md)
-
+- Multi-Task Label Embedding for Text Classification - EMNLP 2018
 ### Multi-Label
 - [Sequence Generation Model for Multi-Label Classification —— COLING2018](SequenceGenerationModelforMulti-LabelClassification.md)
 - [Deep Learning for Extreme Multi-label Text Classification  - SIGIR2017](DeepLearningforExtremeMultilabelTextClassification.md)
-- Multi-Task Label Embedding for Text Classification - EMNLP 2018
+
 
 ### Multi-Task
 - Recurrent Neural Network for Text Classification with Multi-Task Learning - IJCAI 2016
@@ -50,3 +50,4 @@
 ### Reinforcement
 - Learning Structured Representation for Text Classification - AAAI 2018
 - Learning to Skim Text - ACL 2017
+- LEARNING TO COMPOSE WORDS INTO SENTENCES WITH REINFORCEMENT LEARNING

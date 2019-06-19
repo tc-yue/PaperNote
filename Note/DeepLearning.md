@@ -1,0 +1,11 @@
+- attention
+    - [李宏毅attention](https://www.bilibili.com/video/av9770302/?p=8)
+    - [zhihu](https://zhuanlan.zhihu.com/p/31547842)
+    - [attention is all you need](https://kexue.fm/archives/4765/)
+- CNN
+    - [从CNN视角看在自然语言处理上的应用](https://zhuanlan.zhihu.com/p/30268946)
+    - [understanding cnn for nlp](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
+    - [cnn在文本分类的应用]()
+    - [cnn在句子建模上的应用](http://www.jeyzhang.com/cnn-apply-on-modelling-sentence.html)
+- Multi Task Learning
+    - http://www.mooc.ai/course/574/learn?lessonid=2904#lesson/2904

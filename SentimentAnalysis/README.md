@@ -42,3 +42,6 @@
 ### User
 - Neural Sentiment Classification with User and Product Attention
 - Learning Semantic Representations of Users and Products for Document Level Sentiment Classification - ACL 2015
+
+### Others
+- A Hierarchical End-to-End Model for Jointly Improving Text Summarization and Sentiment Classification

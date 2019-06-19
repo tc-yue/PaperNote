@@ -40,3 +40,5 @@
         - 首字母大写，全部大写，大小写混合，全部小写
         - 依存分析，位置，
 - ![pic1](pics/neroverview/3.png)
+
+- Design Challenges and Misconceptions in Neural Sequence Labeling

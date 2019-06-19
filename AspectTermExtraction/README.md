@@ -15,7 +15,7 @@
 - End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF
 - Fast and Accurate Entity Recognition with Iterated Dilated Convolutions
 - Named entity recognition with bidirectional LSTM-CNNS
-- Chinese NER Using Lattice LSTM
+- Chinese NER Using Lattice LSTM -ACL 2018
 
 ### Aspect Term Extraction
 - [Double Embeddings and CNN based Sequence Labeling for Aspect-Extraction -ACL2018](DoubleEmbeddingsandCNNbasedSequenceLabelingforAspectExtraction.md)

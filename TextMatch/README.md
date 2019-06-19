@@ -13,9 +13,10 @@
 - 文本相似度计算方法研究综述
 - Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering - COLING 2018
 ### TextMatch
-- multi-channel information crossing for text matching KDD2018
+- [multi-channel information crossing for text matching KDD2018](MultiChannelInformationCrossingforTextMatching.md)
 - Convolutional Neural Network Architectures for Matching Natural Language Sentences
 - Text Matching as Image Recognition AAAI 2016
+- Knowledge Enhanced Hybrid Neural Network for Text Matching
 ### CQA
 - Question Condensing Networks for Answer Selection in Community Question Answering ACL2018
 
@@ -31,3 +32,16 @@
 
 ### MultiTask
 - Multi-Task Deep Neural Networks for Natural Language Understanding
+
+### IR chatbot
+- An Information Retrieval Approach to Short Text Conversation -computer science 14
+- DocChat: An Information Retrieval Approach for Chatbot Engines Using Unstructured Documents - acl16
+
+
+---------------------
+- 资料
+    - [知乎：如何判断两段文本说的是同一件事情](https://www.zhihu.com/question/56751077)
+    - [知乎：如何用w2v计算两个句子之间的相似度](https://www.zhihu.com/question/29978268)
+    - [关键词抽取](http://www.cnblogs.com/zhbzz2007/p/6177832.html)
+    - [哈工大基于关键词](https://mp.weixin.qq.com/s/TYEWKdX4IEDLd8rnsASnnw)
+    - [知乎：如何用词向量技术计算两个句子之间的相似度](https://www.zhihu.com/question/33952003)

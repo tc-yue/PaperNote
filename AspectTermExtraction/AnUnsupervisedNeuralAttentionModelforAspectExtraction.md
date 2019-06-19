@@ -10,7 +10,9 @@
         -  First, we filter the word through the transformation M which is able to capture the relevance of the
         word to the K aspects. Then we capture the relevance of the filtered word to the sentence
         by taking the inner product of the filtered word to the global context .
+        - 也就是先考虑每个词与aspect的相关性，再考虑这些相似的词与平均池化表示的相关性
     - Sentence Reconstruction
+
         - 首先对句子表示进行降维和线性变换，得到句子属于每个Aspect的概率
         - 将该概率与Aspect embedding 相乘得到重构的向量表示
     - Objective
