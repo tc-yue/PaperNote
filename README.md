@@ -18,8 +18,8 @@ Reading Note on NLP&DL papers
 [立场检测](StanceDetection/README.md)
 
 ---------------
-#### AspectTermExtraction
-[评价对象抽取](AspectTermExtraction/README.md)
+#### NameEntityRecognition
+[命名实体识别](NameEntityRecognition/README.md)
 
 --------------
 #### NN

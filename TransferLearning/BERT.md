@@ -37,7 +37,33 @@
         - 不是所有的任务都适合Transformer，从预训练的模型获取固定的特征会减少计算时间
         - 在NER上的实验，把最后四层的表示拼接与finetune的效果相差0.3
 
+- [Pre-Trainging with Whole Word Msking for Chinese Bert]
+- [code](https://github.com/ymcui/Chinese-BERT-wwm)
+- 原始的BERT都是使用wordpiece进行分词，或者中文直接就是字。
+    - 如果一个masked token属于完整的词，那么这个词的所有token都被mask掉。这使得模型去预测整个词，而不是某个token。
 
+- whole word mask
+    - original sentence: 使用语言模型来预测下一个词的probability
+    - original sentence with CWS: 使用 语言 模型 来 预测 下 一个 词 的 probability
+    - original bert input： 使 用 语 言 来 [MASK] 测 下 一 个 词 的 pro [MASK] ##lity
+    - Whole Word Masking Input: 使 用 语 言 [MASK] [MASK] 来 [MASK] [MASK] 下 一 个 词 的 [MASK] [MASK] [MASK]
+- pre-training
+    - 在google的中文模型上继续微调，首先训练100k 步128长，batchsize：2560，lr 1e-4，
+    继续100步，长度152，batch 384，学习长期依赖和位置向量。
+- task
+    - learning-rate 1e-5~1e-4
+- [ERNIE:Enhanced Language Representation with Informative Entities -ACL2019]
+- Introduction
+    - "Bob Dylan Wrote Blowin' in the  Wind in 1962".
+        - Bert会tokenize成"UNK wrote UNK in UNK"
+        - 对于关系抽取或者实体类型分类任务，会损失知识信息
+    - Structured Knowledge Encoding
+        - 如何将文本中与知识图谱中有关的信息抽取和编码
+    - Heterogeneous Informatica Fusion
+        - 语言模型与知识表示是不同的学习方法，相对独立的向量空间。如何混合？
+- Method
+    - 将实体短语的第一个token与知识库中的实体对齐
+----------------
 - https://www.zhihu.com/collection/120087973
 https://zhuanlan.zhihu.com/p/65470719
 - BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis

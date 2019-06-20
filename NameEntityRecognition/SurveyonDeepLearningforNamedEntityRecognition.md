@@ -1,4 +1,9 @@
 - A Survey on Recent Advances in Named Entity Recognition from Deep Learning models COLING2018
+- A Survey on  Named Entity Recognition from Deep Learning models
+- Design Challenges and Misconceptions in Neural Sequence Labeling
+- NCRF++ An Open-source Neural Sequence Labeling Toolkit
+
+
 - 2.3 Evaluation Metrics
     - Exact Match: 精确匹配。正确识别实体边界和类型。
         - True Positive(_TP_)：识别成实体，且类型正确
@@ -41,4 +46,3 @@
         - 依存分析，位置，
 - ![pic1](pics/neroverview/3.png)
 
-- Design Challenges and Misconceptions in Neural Sequence Labeling
