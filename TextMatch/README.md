@@ -12,6 +12,7 @@
 - 深度文本匹配综述 计算机学报 2017
 - 文本相似度计算方法研究综述
 - Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering - COLING 2018
+
 ### TextMatch
 - [multi-channel information crossing for text matching KDD2018](MultiChannelInformationCrossingforTextMatching.md)
 - Convolutional Neural Network Architectures for Matching Natural Language Sentences
@@ -40,8 +41,9 @@
 
 ---------------------
 - 资料
+    - [知乎：文本匹配](https://zhuanlan.zhihu.com/p/87384188)
+    - [wsdm 2019:李航](https://mp.weixin.qq.com/s/jeK1iHfFkSKuIB4xc3mzwA)
+    - [wsdm 2019:徐君](https://mp.weixin.qq.com/s/4k106lCBns-iEg3gy5mcbg)
     - [知乎：如何判断两段文本说的是同一件事情](https://www.zhihu.com/question/56751077)
     - [知乎：如何用w2v计算两个句子之间的相似度](https://www.zhihu.com/question/29978268)
-    - [关键词抽取](http://www.cnblogs.com/zhbzz2007/p/6177832.html)
-    - [哈工大基于关键词](https://mp.weixin.qq.com/s/TYEWKdX4IEDLd8rnsASnnw)
     - [知乎：如何用词向量技术计算两个句子之间的相似度](https://www.zhihu.com/question/33952003)
